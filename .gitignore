@@ -1,0 +1,41 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Database
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# Vehicle data
+*.csv
+
+# Logs
+*.log
+logs/
+
+# Backup
+backups/
+*.bak
+*.tmp
+*.lock
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+secrets.toml
+credentials.json
+.cloudflared/
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+/register_cars.py
